@@ -1,0 +1,13 @@
+---
+pipeline:
+  docker:
+    image: plugins/docker
+    secrets:
+      - docker_password
+
+    email: kevin.bacon@mail.com
+
+    username: tonglil
+    repo: tonglil/drone-labeler
+    tags:
+      - latest
